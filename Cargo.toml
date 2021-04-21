@@ -1,0 +1,15 @@
+[package]
+name = "xdom"
+version = "0.1.0"
+authors = ["司芳源 <sify1221@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quick-xml = "0.22.0"
+
+[dev-dependencies]
+minidom = "0.13.0"
+sxd-document = "0.3.2"
+xmltree = "0.10.3"
